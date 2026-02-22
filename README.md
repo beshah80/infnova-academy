@@ -1,36 +1,159 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# INFNOVA Academy - Frontend Internship Challenge
 
-## Getting Started
+> A modern, responsive course platform built with Next.js and TypeScript
 
-First, run the development server:
+**Developer**: Beshah Ashenafi  
+**Development Time**: ~20 hours (4 days × 5 hours/day)  
+**Live Demo**: [Add your deployment URL here]  
+**GitHub**: [Add your GitHub repo URL here]
 
+## 📋 Project Overview
+
+This project is a complete implementation of the INFNOVA Academy course platform, featuring a clean and modern UI with full responsiveness across all devices. Built as part of the INFNOVA Frontend Internship challenge.
+
+## ✨ Features
+
+### Core Features
+- 🎓 **Course Listing**: Browse all available courses with search functionality
+- 📖 **Course Details**: Detailed course information with instructor profiles
+- 📱 **Fully Responsive**: Mobile-first design with hamburger menu navigation
+- 🔍 **Search & Filter**: Real-time course search by title, instructor, or category
+- 🎨 **Level Badges**: Visual indicators for Beginner, Intermediate, and Advanced courses
+
+### Pages Implemented
+- **Home/Courses Page**: Main course listing with search
+- **Course Detail Page**: Individual course information and enrollment
+- **About Us Page**: Company information and mission
+- **Contact Page**: Contact form with validation and modal feedback
+- **Sign In Page**: Authentication with email and social login options
+- **Enrollment Page**: Registration with multiple sign-up methods
+
+### Bonus Features ✅
+- ✅ **API Integration**: Connected to INFNOVA Course API
+- ✅ **Next.js Framework**: Built with Next.js 14 and App Router
+- ✅ **Loading States**: Spinner animations during data fetching
+- ✅ **Error Handling**: Graceful error messages and fallbacks
+- ✅ **Form Validation**: Client-side validation with user feedback
+- ✅ **Social Authentication**: Google and LinkedIn login integration
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **API**: INFNOVA Course API
+- **Deployment**: Vercel
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone [your-repo-url]
+cd infnova-academy
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── page.tsx              # Main courses listing page
+│   ├── courses/
+│   │   └── [id]/
+│   │       └── page.tsx      # Course detail page
+│   ├── about/
+│   │   └── page.tsx          # About us page
+│   ├── contact/
+│   │   └── page.tsx          # Contact page with form
+│   ├── enroll/
+│   │   └── page.tsx          # Registration page
+│   ├── signin/
+│   │   └── page.tsx          # Sign in page
+│   ├── layout.tsx            # Root layout
+│   └── globals.css           # Global styles
+└── components/               # Reusable components (if any)
+```
 
-## Learn More
+## 🎯 Key Implementation Details
 
-To learn more about Next.js, take a look at the following resources:
+### Responsive Design
+- Mobile-first approach with Tailwind CSS breakpoints
+- Hamburger menu for mobile navigation
+- Adaptive layouts for all screen sizes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### API Integration
+- Fetches course data from `https://infnova-course-api.vercel.app/`
+- Dynamic routing for individual course pages
+- Loading states during API calls
+- Error handling for failed requests
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Form Validation
+- Contact form with required fields
+- Email format validation
+- Message length validation (minimum 10 characters)
+- Modal feedback for success/error states
 
-## Deploy on Vercel
+### UX Enhancements
+- Smooth transitions and hover effects
+- Visual feedback on interactive elements
+- Consistent color scheme (Orange primary, Gray neutrals)
+- Accessible navigation and forms
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Design Implementation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Followed INFNOVA design guidelines
+- Maintained consistent spacing and typography
+- Implemented color-coded level badges
+- Added visual hierarchy with proper font weights and sizes
+
+## 📝 Notes
+
+### Approach
+1. Started with core page structure and navigation
+2. Integrated API for dynamic course data
+3. Implemented responsive design with mobile menu
+4. Added form validation and user feedback
+5. Polished UI with transitions and hover states
+6. Tested across different screen sizes
+
+### Challenges Overcome
+- Implementing a fully functional mobile hamburger menu
+- Creating reusable modal components for form feedback
+- Ensuring consistent styling across all pages
+- Handling API loading and error states gracefully
+
+## 🚀 Deployment
+
+This project is deployed on Vercel. Visit the live demo: [Add your URL here]
+
+## 📧 Contact
+
+**Beshah Ashenafi**  
+Submitted for: INFNOVA Frontend Internship Challenge  
+Submission Date: February 2026
+
+---
+
+*Built with ❤️ for INFNOVA Technologies*
