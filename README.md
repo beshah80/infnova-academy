@@ -4,8 +4,8 @@
 
 **Developer**: Beshah Ashenafi  
 **Development Time**: ~20 hours (4 days × 5 hours/day)  
-**Live Demo**: [Add your deployment URL here]  
-**GitHub**: [Add your GitHub repo URL here]
+**Live Demo**: https://infnova-academy-psi.vercel.app/  
+**GitHub**: https://github.com/beshah80/infnova-academy
 
 ## 📋 Project Overview
 
@@ -30,7 +30,7 @@ This project is a complete implementation of the INFNOVA Academy course platform
 
 ### Bonus Features ✅
 - ✅ **API Integration**: Connected to INFNOVA Course API
-- ✅ **Next.js Framework**: Built with Next.js 14 and App Router
+- ✅ **Next.js Framework**: Built with Next.js 16 and App Router
 - ✅ **Loading States**: Spinner animations during data fetching
 - ✅ **Error Handling**: Graceful error messages and fallbacks
 - ✅ **Form Validation**: Client-side validation with user feedback
@@ -38,7 +38,7 @@ This project is a complete implementation of the INFNOVA Academy course platform
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **API**: INFNOVA Course API
@@ -48,28 +48,24 @@ This project is a complete implementation of the INFNOVA Academy course platform
 
 ### Prerequisites
 - Node.js 18+ installed
-- npm or yarn package manager
+- npm package manager
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/beshah80/infnova-academy.git
 cd infnova-academy
 ```
 
 2. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
 ```
 
 3. Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
@@ -146,13 +142,7 @@ src/
 
 ## 🚀 Deployment
 
-This project is deployed on Vercel. Visit the live demo: [Add your URL here]
-
-## 📧 Contact
-
-**Beshah Ashenafi**  
-Submitted for: INFNOVA Frontend Internship Challenge  
-Submission Date: February 2026
+This project is deployed on Vercel: https://infnova-academy-psi.vercel.app/
 
 ---
 
